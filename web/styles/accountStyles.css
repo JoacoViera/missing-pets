@@ -1,0 +1,42 @@
+.saveAccount{
+    background-color: #4caf59 !important;
+}
+
+.cancelAccount{
+    background-color: #ff0000 !important; 
+}
+
+.account-error{
+    display: none;
+    margin-top: 1em;
+    text-align: center;
+    color: red;
+}
+
+.labelTittle{
+    font: normal 20px 'Bitter', serif;
+    color: #119DF8;
+    font: 15px Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5em;
+    margin-top: -0.5em;
+}
+    
+.select-city{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 0.065rem solid #fff;
+    width: 100%;
+}
+.select-city select {
+    width: 200px;
+    background-color:lightskyblue;
+    color: white;
+    padding: 0.5em;
+    border: none !important;
+    font-size: 1em;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}

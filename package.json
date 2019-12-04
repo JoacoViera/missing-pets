@@ -1,0 +1,37 @@
+{
+  "name": "missing-pets",
+  "version": "0.0.0",
+  "description": "Sitio web en donde se publican las mascotas perdidas y/o encontradas",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "jest --passWithNoTests",
+    "mongo": "run-rs --keep --shell",
+    "postinstall": "npm install --prefix api && npm install --prefix web"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucudal-wp/missing-pets.git"
+  },
+  "author": "The Heinsenbergs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucudal-wp/missing-pets/issues"
+  },
+  "homepage": "https://github.com/ucudal-wp/missing-pets#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.9.0",
+    "prettier": "1.18.2",
+    "run-rs": "^0.6.0",
+    "serve": "^11.1.0"
+  }
+}

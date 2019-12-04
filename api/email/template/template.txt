@@ -1,0 +1,8 @@
+Dear {Name},
+Someone is willing to contact you in regards to your post about {PetName}. If you wish to contact this person, please send an email directly to
+him/her at {Email}. (Please do not answer this email).
+He/She left this message attached:
+"{Message}"
+
+Thank you for using our website,
+Missing Pets.

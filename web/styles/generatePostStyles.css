@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../img/pets.png');
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.box-create-post{
+  position: absolute;
+  margin-top: 42rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.625rem;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  clear: none;
+}
+
+.post-class{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.post-class label{
+  text-align: center;
+  color: #03a9f4;
+}
+
+.box-post .choice{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.label-post {
+  float: left;
+  clear: none;
+  color: #03a9f4;
+
+  padding: 4px 4px 4px 4px;
+}
+
+
+.box-post input[type='submit'] {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #03a9f4;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+
+.box-post input[type='submit']:hover {
+  background-color: #1cb1f5;
+}
+
+.box-post button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+
+.box-post a:link,
+a:visited {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 3em;
+}
+
+.select-choice{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.select-choice select {
+  width: 100%;
+  background-color:lightskyblue;
+  color: white;
+  padding: 0.5em;
+  border: none !important;
+  font-size: 1em;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+
+/* custom styles */
+
+.post-error {
+  display: none;
+  margin-top: 1em;
+  text-align: center;
+  color: red;
+}
+
+.box-create-post h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box-create-post .inputBox {
+  position: relative;
+}
+
+.box-create-post .inputBox input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box-create-post .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.box-create-post .inputBox input:focus ~ label,
+.box-create-post .inputBox input:valid ~ label,
+.box-create-post .inputBox input:not([value='']) ~ label {
+  top: -1.125rem;
+  left: 0;
+  color: #03a9f4;
+  font-size: 0.75rem;
+}
+
+.box-create-post input[type='submit'] {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #03a9f4;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1em;
+}
+
+.box-create-post button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1em;
+}
+
+.box-create-post a:link,
+a:visited {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+
+  .box-create-post{
+    width: 90%;
+  }
+
+}

@@ -1,0 +1,158 @@
+.title {
+  color: #b29f87;
+  text-align: center;
+  text-shadow: 0.125rem 0 0 black, -0.125rem 0 0 black, 0 0.125rem 0 black,
+    0 -0.125rem 0 black, 0.07rem 0.07rem black, -0.07rem -0.07rem 0 black,
+    0.07rem -0.07rem 0 black, -0.07rem 0.07rem 0 black;
+  font-size: 4rem;
+}
+
+.post {
+  flex: 1;
+  flex-direction: row;
+}
+
+.petPost {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 0.5rem;
+  border: 0.25rem solid #877462;
+  border-radius: 0.5rem;
+  width: 25%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 6px 6px 10px -1px black;
+}
+
+.petName {
+  text-transform: capitalize;
+  margin: 0;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  word-spacing: 0.7rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.petPhoto {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.basicPetInfo {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+  word-spacing: 0.13rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+  text-align: center;
+}
+
+#select {
+  padding: 0.5rem;
+  width: 90%;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+
+.modalBtn {
+  margin: 0.5rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.425rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  width: 5rem;
+  font-size: 1.1rem;
+  align-self: center;
+}
+
+#acceptBtn,
+#cancelBtn {
+  margin-top: 1rem;
+}
+#acceptBtn {
+  background-color: #4caf50;
+  left: 10%;
+}
+#cancelBtn {
+  background-color: red;
+  right: 10%;
+}
+#acceptBtn:hover {
+  background-color: #37832a;
+}
+#cancelBtn:hover {
+  background-color: #cc0000;
+}
+
+.changeLocBtn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  width: 28rem;
+  font-size: x-large;
+  align-self: center;
+  margin: 1rem;
+}
+
+.changeLocBtn:hover {
+  background-color: #37832a;
+}
+
+.homeBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.noPets {
+  color: #b29f87;
+  text-align: center;
+  text-shadow: 0.125rem 0 0 black, -0.125rem 0 0 black, 0 0.125rem 0 black,
+    0 -0.125rem 0 black, 0.07rem 0.07rem black, -0.07rem -0.07rem 0 black,
+    0.07rem -0.07rem 0 black, -0.07rem 0.07rem 0 black;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.hiddenModal {
+  display: none;
+}
+
+
